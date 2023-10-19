@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-about.css" />
+  </head>
+  <body>
+    <div class="about-page">
+      <div class="navigation">
+        <div class="menu-items">
+          <div class="text-wrapper">About</div>
+          <div class="text-wrapper">Work</div>
+          <div class="text-wrapper">Contact</div>
+        </div>
+      </div>
+      <div class="header-section">
+        <div class="header-content">
+          <div class="title-subtitle">
+            <div class="branding-image">about me</div>
+            <div class="visual-designer">Hi, I’m Taylor!</div>
+            <p class="this-is-a-template">
+              I am a passionate creative with an eye for detail and a heart for all things design! I am excited to grow
+              my skills in graphic design and dive deeper into who I am made to be!
+            </p>
+          </div>
+          <a href="https://www.animaapp.com" target="_blank" rel="noopener noreferrer"
+            ><div class="button"><div class="contact">connect</div></div></a
+          >
+        </div>
+        <img class="headerimage" src="img/headerimage-1.png" />
+      </div>
+      <div class="div">
+        <div class="text-wrapper-2">fun facts</div>
+        <div class="flexcontainer">
+          <p class="text">
+            <span class="span">I am a third generation Aggie! WHOOP<br /></span>
+          </p>
+          <p class="text">
+            <span class="span">I am a College Station native, born and raised!<br /></span>
+          </p>
+          <p class="text">
+            <span class="span"
+              >I love traveling, sunsets, the lake, time with family, adventures with friends, and of course creating
+              new projects!<br
+            /></span>
+          </p>
+          <p class="text">
+            <span class="span"><br /></span>
+          </p>
+          <p class="text">
+            <span class="span"
+              >A testimony to the beginning of my work in graphic design began with my time as a Breakaway volunteer.
+              Breakaway is a Bible Study on the campus of Texas A&amp;M University where thousands of students meet
+              every Tuesday night to study the Bible and worship in community. I have the greatest honor to serve this
+              ministry throughout my time in college and this semester I am on Creative Team making social media
+              graphics and videoing for Instagram stories on Tuesday nights. Working with the Breakaway brand allows me
+              to explore and grow my design skills and has only deepened my desire for creating. <br
+            /></span>
+          </p>
+          <p class="text"><span class="span"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+$("#nav-holder").replaceWith(data);
+});
+
+$.get("footer.html", function(data){
+$("#footer-holder").replaceWith(data);
+});
+
+</script> 

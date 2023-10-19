@@ -1,0 +1,204 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    height: 1311px;
+    align-items: center;
+    position: relative;
+    background-color: #f5eee6;
+  }
+  
+  .about-page .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px 24px;
+    padding: 24px 42px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #edd8dd;
+  }
+  
+  .about-page .menu-items {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-page .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--black);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    white-space: nowrap;
+    font-style: var(--body-text-font-style);
+  }
+  
+  .about-page .header-section {
+    flex-wrap: wrap;
+    height: 542px;
+    align-items: center;
+    justify-content: center;
+    gap: 68px 42px;
+    padding: 42px 24px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f5eee6;
+    display: flex;
+    position: relative;
+  }
+  
+  .about-page .header-content {
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 620px;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+  }
+  
+  .about-page .title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .about-page .branding-image {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--subtitle-font-family);
+    font-weight: var(--subtitle-font-weight);
+    color: var(--black);
+    font-size: var(--subtitle-font-size);
+    letter-spacing: var(--subtitle-letter-spacing);
+    line-height: var(--subtitle-line-height);
+    font-style: var(--subtitle-font-style);
+  }
+  
+  .about-page .visual-designer {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: var(--black);
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+  }
+  
+  .about-page .this-is-a-template {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--black);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .about-page .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 64px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #edd8dd;
+  }
+  
+  .about-page .contact {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .about-page .headerimage {
+    position: relative;
+    flex: 1;
+    min-width: 320px;
+    max-width: 480px;
+    flex-grow: 1;
+    height: 360px;
+  }
+  
+  .about-page .div {
+    display: flex;
+    flex-direction: column;
+    width: 814px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .about-page .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: var(--black);
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+  }
+  
+  .about-page .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .about-page .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .about-page .span {
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #2d2d2d;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
